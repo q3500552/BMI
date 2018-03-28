@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 .setMessage("BMI="+bmi)
                 .setTitle("BMI值")
                 .setPositiveButton("確定",null)
-                .setPositiveButton("CANCEL",null)
+                .setNegativeButton("CANCEL",null)
                 .show();
 
     }
